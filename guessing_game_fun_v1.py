@@ -18,6 +18,6 @@ def do_guess_round():
         elif computers_number > int(players_guess):
             print('Too low')
         else:
-            print('Too high dude')
+            print('Too high')
 while True:
     do_guess_round()
