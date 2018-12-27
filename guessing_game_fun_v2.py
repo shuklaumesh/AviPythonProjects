@@ -1,9 +1,11 @@
-"""We are going to make a guessing game in this file and in it's later vesions!"""
-"""This is a modified version of the earlier versions called guessing_game_fun_v2.py!"""
+"""We are going to make a guessing game in this file and
+in it's later vesions!"""
+"""This is a modified version of the earlier versions called
+guessing_game_fun_v2.py!"""
 
 import random
 
-computers_number = random.randint(1,100)
+computers_number = random.randint(1.0,100.0)
 PROMPT = 'What is your guess? '
 
 def do_guess_round():
