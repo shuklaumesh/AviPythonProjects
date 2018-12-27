@@ -1,5 +1,7 @@
-"""We are going to make a guessing game in this file and in it's later vesions!"""
-
+"""guessing_game_fun_v1.py"""
+"""Guessing Game with a function
+In this project the guessing game is recast using a function
+guessing_game_fun_v1 is version 1 of the Guessing Game"""
 
 import random
 
