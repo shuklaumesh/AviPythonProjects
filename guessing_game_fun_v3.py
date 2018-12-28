@@ -29,7 +29,7 @@ total_guesses = 0#Added
 
 while True:
     total_rounds = total_rounds+1#Added
-    print("Starting round number: "+str(total_rounds))#Changed
+    print("Round number: "+str(total_rounds))#Changed
     print("Let the guessing begin!!!")
     this_round = do_guess_round()#Changed
     total_guesses = total_guesses+this_round#Added
