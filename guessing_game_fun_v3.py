@@ -1,7 +1,4 @@
-""We are going to make a guessing game in this file and
-in it's later vesions!"""
-"""This is a modified version of the earlier versions called
-guessing_game_fun_v2.py!"""
+
 
 import random
 
