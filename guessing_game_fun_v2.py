@@ -1,11 +1,13 @@
-"""We are going to make a guessing game in this file and
-in it's later vesions!"""
-"""This is a modified version of the earlier versions called
-guessing_game_fun_v2.py!"""
+"""guessing_game_fun_v2.py"""
+"""Guessing Game with a function
+In this project the guessing game is recast using a function
+guessing_game_fun_v2 is version 2 of the Guessing Game"""
+"""For explanation,
+some extra parts added that will not stay in the later versions"""
 
 import random
 
-computers_number = random.randint(1.0,100.0)
+computers_number = random.randint(1,100)
 PROMPT = 'What is your guess? '
 
 def do_guess_round():
@@ -23,7 +25,7 @@ def do_guess_round():
         else:
             print('Too high')
 while True:
-    #Print statments added
+    #Print statments
     print("Starting a new round")
     print("The computer's number should be "+str(computers_number))
     print("Let the guessing begin!!!")
