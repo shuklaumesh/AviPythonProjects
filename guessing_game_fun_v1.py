@@ -2,6 +2,8 @@
 """Guessing Game with a function
 In this project the guessing game is recast using a function
 guessing_game_fun_v1 is version 1 of the Guessing Game"""
+"""Since this is the first version of the Guessing Game
+there are no updates in this"""
 
 import random
 
