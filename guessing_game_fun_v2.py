@@ -3,7 +3,7 @@
 In this project the guessing game is recast using a function
 guessing_game_fun_v2 is version 2 of the Guessing Game"""
 """For explanation,
-some extra parts added that will not stay in the later versions"""
+some extra parts are added that will not stay in the later versions"""
 
 import random
 
