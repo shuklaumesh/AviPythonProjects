@@ -1,7 +1,8 @@
-"""guessing_game_fun_vf.py"""
-"""Guessing Game with a function
+"""guessing_game_fun_vf.py
+Guessing Game with a function
 In this project the guessing game is recast using a function
-guessing_game_fun_v3 is the final version of the Guessing Game"""
+guessing_game_fun_vf is the final version of the Guessing Game"""
+
 import random
 
 PROMPT = 'What is your guess? '
@@ -42,17 +43,19 @@ def do_guess_round():
         elif computers_number > int(players_guess):
             print('Too low')
         else:
-            print('Too high')
+                print('Too high')
 
 total_rounds = 0
 total_guesses = 0
-
+stats_message = ""
 
 while True:
     total_rounds = total_rounds+1
     print("Round number: "+str(total_rounds))
     print("Let the guessing begin!!!")
     this_round = do_guess_round()
+
+    
     
     #new if condition (and code block) to test against quit
     if this_round == QUIT:
@@ -66,11 +69,13 @@ while True:
                             ' rounds, with as average of ' +\
                             str(avg)
         break
+           
+        
+    total_guesses = total_guesses+this_round
+    avg = str(total_guesses/float(total_rounds))
+    print("You took "+str(this_round)+" guesses")
+    print("Your guessing average = "+avg)
+    print("")
     
-        total_guesses = total_guesses+this_round
-        avg = str(total_guesses/float(total_rounds))
-        print("You took "+str(this_round)+" guesses")
-        print("Your guessing average = "+avg)
-        print("")
-        # Added exit messages
-        print(stats_message)
+# Added exit messages
+print(stats_message) 
